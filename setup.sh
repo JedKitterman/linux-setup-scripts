@@ -12,4 +12,8 @@ echo "To setup git with your creds sign in and... git config --global credential
 cd ~/Github/linux-setup-scripts
 cp settings.json ~/.config/Code/User/settings.json
 
+sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /snap/bin/chromium 200
+
+xdg-open https://forums.fast.ai/t/jeremys-harebrained-install-guide/43814
+xdg-open https://gist.github.com/jph00/0762f8d49c807b608f6efd69d6862bee
 
