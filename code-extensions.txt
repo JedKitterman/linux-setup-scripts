@@ -1,9 +1,5 @@
 abusaidm.html-snippets
-ecmel.vscode-html-css
 esbenp.prettier-vscode
-formulahendry.code-runner
-johnpapa.vscode-peacock
-karigari.chat
 Kasik96.swift
 monokai.theme-monokai-pro-vscode
 ms-azuretools.vscode-docker
