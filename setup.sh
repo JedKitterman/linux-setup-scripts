@@ -4,6 +4,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
 # Other programs
 sudo snap install --classic code
 sudo apt install git
+sudo snap install discord
 git config --global user.email "andrewpynchbusiness@gmail.com"
 git config --global user.name "Andrew Pynch"
 
