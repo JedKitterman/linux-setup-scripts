@@ -169,4 +169,5 @@ alias gl='git log'
 # Clone a repo of a given name from my github
 clonerepo() {
 	git clone 'https://github.com/andrew-pynch/'$1
+    cd $1
 }
