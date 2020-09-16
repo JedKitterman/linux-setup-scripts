@@ -162,8 +162,8 @@ alias gpl='git pull'
 alias gam='git commit -a -m'
 alias gpu='git push'
 alias gba='git branch -a'
-alias gb ='git branch'
-alias gc ='git checkout'
+alias gb='git branch'
+alias gc='git checkout'
 alias gl='git log'
 
 # Clone a repo of a given name from my github
