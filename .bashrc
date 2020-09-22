@@ -157,8 +157,9 @@ alias bse='vim ~/.bashrc'
 
 # Git Aliases
 # ===========
-alias gcl='clonerepo'
+alias gcl='CloneAndrewRepo'
 alias gpl='git pull'
+alias gaa='git add --all'
 alias gam='git commit -a -m'
 alias gpu='git push'
 alias gba='git branch -a'
@@ -166,8 +167,24 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gl='git log'
 
+alias sa='ShowAliases'
+
+ShowAliases() {
+    echo "alias gcl='CloneAndrewRepo'
+alias gpl='git pull'
+alias gaa='git add --all'
+alias gam='git commit -a -m'
+alias gpu='git push'
+alias gba='git branch -a'
+alias gb='git branch'
+alias gc='git checkout'
+alias gl='git log'"
+}
+
 # Clone a repo of a given name from my github
-clonerepo() {
+CloneAndrewRepo() {
 	git clone 'https://github.com/andrew-pynch/'$1
     cd $1
 }
+
+
