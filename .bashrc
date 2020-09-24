@@ -154,6 +154,7 @@ alias fs='xdg-open .'
 alias templ-disabled='/home/andrew/Github/Ishiiruka/build/Binaries/dolphin-emu'
 alias dol='dolphin-emu'
 alias bse='vim ~/.bashrc'
+alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
 
 # Git Aliases
 # ===========
