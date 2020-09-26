@@ -156,6 +156,7 @@ alias dol='dolphin-emu'
 alias bse='vim ~/.bashrc'
 alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
 alias cpp="cd /mnt/c/Users/apynch/Github/CPP"
+alias pgf="cd /mnt/d/Github"
 
 # Git Aliases
 # ===========
