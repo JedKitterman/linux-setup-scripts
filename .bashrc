@@ -168,12 +168,17 @@ alias gpu='git push'
 alias gba='git branch -a'
 alias gb='git branch'
 alias gc='git checkout'
+alias gpsu="PushBranchSetUpstream"
 alias gl='git log'
 
 alias sa='ShowAliases'
 
+PushBranchSetUpstream() {
+    git push --set-upstream origin $1
+}
+
 ShowAliases() {
-    echo "alias gcl='CloneAndrewRepo'
+echo "alias gcl='CloneAndrewRepo'
 alias gpl='git pull'
 alias gaa='git add --all'
 alias gam='git commit -a -m'
@@ -181,7 +186,19 @@ alias gpu='git push'
 alias gba='git branch -a'
 alias gb='git branch'
 alias gc='git checkout'
-alias gl='git log'"
+alias gl='git log'
+echo '------------------------'
+echo 'Other Aliases'
+alias gomass='cd /media/andrew/mass/Github'
+alias jl='jupyter-lab'
+alias jn='jupyter-notebook'
+alias fs='xdg-open .'
+alias templ-disabled='/home/andrew/Github/Ishiiruka/build/Binaries/dolphin-emu'
+alias dol='dolphin-emu'
+alias bse='vim ~/.bashrc'
+alias sshosu='ssh "'pyncha@oregonstate.edu'"@flip.engr.oregonstate.edu'
+alias cpp='cd /mnt/c/Users/apynch/Github/CPP'
+alias pgf='cd /mnt/d/Github'"
 }
 
 # Clone a repo of a given name from my github
