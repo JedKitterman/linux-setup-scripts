@@ -22,5 +22,5 @@ sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /snap/bi
 xdg-open https://forums.fast.ai/t/jeremys-harebrained-install-guide/43814
 xdg-open https://gist.github.com/jph00/0762f8d49c807b608f6efd69d6862bee
 
-mv .bashrc ~/.bashrc -f
+cp .bashrc ~/.bashrc -f
 src ~/.bashrc
