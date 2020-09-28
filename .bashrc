@@ -8,7 +8,9 @@ case $- in
       *) return;;
 esac
 
+neofetch --ascii_distro ubuntu
 # don't put duplicate lines or lines starting with space in the history.
+
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
 
@@ -147,7 +149,6 @@ unset __conda_setup
 
 export PATH=~/swift/usr/bin:$PATH
 
-neofetch --ascii_distro windows 
 alias gomass='cd /media/andrew/mass/Github'
 alias jl='jupyter-lab'
 alias jn='jupyter-notebook'
