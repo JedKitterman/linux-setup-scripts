@@ -164,6 +164,7 @@ alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 # Git Aliases
 # ===========
 alias gcl='CloneAndrewRepo'
+alias gcc='CloneCPPRepo'
 alias gpl='git pull'
 alias gaa='git add --all'
 alias gam='git commit -a -m'
@@ -183,6 +184,7 @@ PushBranchSetUpstream() {
 
 ShowAliases() {
 echo "alias gcl='CloneAndrewRepo'
+alias gcc='CloneCPPRepo'
 alias gpl='git pull'
 alias gaa='git add --all'
 alias gam='git commit -a -m'
@@ -210,6 +212,12 @@ alias pgf='cd /mnt/d/Github'"
 CloneAndrewRepo() {
 	git clone 'https://github.com/andrew-pynch/'$1
     cd $1
+}
+
+# Clone a repo of a given name from CPP Azure
+CloneCPPRepo() {
+	git clone 'https://CPPCorp@dev.azure.com/CPPCorp/Titanium.HeatTreat/_git/'$1
+	cd $1
 }
 
 
