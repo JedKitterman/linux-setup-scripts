@@ -164,7 +164,7 @@ alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 # Git Aliases
 # ===========
 alias gcl='CloneAndrewRepo'
-alias gcc='CloneCPPRepo'
+alias gcpp='CloneCPPRepo'
 alias gpl='git pull'
 alias gaa='git add --all'
 alias gam='git commit -a -m'
