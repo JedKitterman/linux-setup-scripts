@@ -161,6 +161,10 @@ alias cpp="cd /mnt/c/Users/apynch/Github/CPP"
 alias pgf="cd /mnt/d/Github"
 alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 
+# Misc Asliases
+# =============
+alias lsl='ls -l'
+
 # Git Aliases
 # ===========
 alias gcl='CloneAndrewRepo'
