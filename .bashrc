@@ -161,6 +161,7 @@ alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
 alias cpp="cd /mnt/c/Users/apynch/Github/CPP"
 alias pgf="cd /mnt/d/Github"
 alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
+alias clr='rm -rf *'
 
 # Misc Asliases
 # =============
