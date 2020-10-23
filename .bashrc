@@ -179,6 +179,7 @@ alias gc='git checkout'
 alias gm='git merge'
 alias gpsu="PushBranchSetUpstream"
 alias gl='git log'
+alias gsa='git stash --all'
 
 alias sa='ShowAliases'
 
@@ -199,6 +200,7 @@ alias gc='git checkout'
 alias gm='git merge'
 alias gpsu='PushBranshSetUpsteam'
 alias gl='git log'
+alias gsa='git stash --all'
 echo '------------------------'
 echo 'Other Aliases'
 alias gomass='cd /media/andrew/mass/Github'

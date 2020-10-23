@@ -8,6 +8,7 @@ sudo snap install discord
 git config --global user.email "andrewpynchbusiness@gmail.com"
 git config --global user.name "Andrew Pynch"
 sudo apt install neofetch
+sudo apt install toilet
 
 sudo apt-get install chromium-browser
 sudo apt install sl
