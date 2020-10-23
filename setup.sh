@@ -13,6 +13,9 @@ sudo apt install toilet
 sudo apt-get install chromium-browser
 sudo apt install sl
 
+# Set some custom linux settings
+xset r rate 280 70 # 280ms delay, 70 key repeats / sec
+
 echo "To setup git with your creds sign in and... git config --global credential.helper store"
 
 cd ~/Github/linux-setup-scripts
