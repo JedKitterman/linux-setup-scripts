@@ -121,6 +121,7 @@ alias config='/usr/bin/git --git-dir=/home/andrew/.cfg/ --work-tree=/home/andrew
 
 export PATH=/usr/local/cuda/bin:$PATH
 export PATH=/usr/local/cuda/bin:$PATH
+export PATH=$PATH:/home/andrew/bin
 alias git=hub
 alias gpr='git pull-request -m "$(git log -1 --pretty=%B)"'
 clonefork() {
@@ -160,6 +161,7 @@ alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
 alias cpp="cd /mnt/c/Users/apynch/Github/CPP"
 alias pgf="cd /mnt/d/Github"
 alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
+alias clr='rm -rf *'
 
 # Misc Asliases
 # =============
