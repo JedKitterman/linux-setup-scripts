@@ -182,7 +182,7 @@ alias gm='git merge'
 alias gpsu="PushBranchSetUpstream"
 alias gl='git log'
 alias gsa='git stash --all'
-
+alias gbsc='git branch --show-current'
 alias sa='ShowAliases'
 
 PushBranchSetUpstream() {
@@ -203,6 +203,7 @@ alias gm='git merge'
 alias gpsu='PushBranshSetUpsteam'
 alias gl='git log'
 alias gsa='git stash --all'
+alias gbsc='git branch --show-current'
 echo '------------------------'
 echo 'Other Aliases'
 alias gomass='cd /media/andrew/mass/Github'
