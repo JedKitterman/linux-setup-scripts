@@ -178,6 +178,7 @@ alias gpu='git push'
 alias gba='git branch -a'
 alias gb='git branch'
 alias gc='git checkout'
+alias gbgc='BranchAndCheckout'
 alias gm='git merge'
 alias gpsu="PushBranchSetUpstream"
 alias gl='git log'
@@ -187,6 +188,10 @@ alias sa='ShowAliases'
 
 PushBranchSetUpstream() {
     git push --set-upstream origin $1
+}
+
+BranchAndCheckout() {
+    git branch $1 && git checkout $1
 }
 
 ShowAliases() {
