@@ -8,7 +8,22 @@ case $- in
       *) return;;
 esac
 
+
+#############################
+###### Custom Things ########
+#############################
 neofetch --ascii_distro ubuntu
+
+UpdateLinuxSetupScripts() {
+	cd ~/linux-setup-scripts
+	git pull
+	./mvBash.sh
+	echo "Pulling updates from latest .bashrc file stored at https://github.com/andrew-pynch/linux-setup-scripts"
+	cd
+}
+
+UpdateLinuxSetupScripts
+
 # don't put duplicate lines or lines starting with space in the history.
 
 # See bash(1) for more options
