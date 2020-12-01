@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir ~/.vim/colors 
+sudo mkdir ~/.vim/colors 
 cd ~/linux-setup-scripts
-cp monokai.vim ~/.vim/colors
-cp .vimrc ~/
+sudo cp monokai.vim ~/.vim/colors -f
+sudo cp .vimrc ~/ -f
