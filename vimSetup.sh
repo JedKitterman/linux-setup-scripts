@@ -1,6 +1,5 @@
 #!/bin/bash
-cd ~/.vim/colors/
-wget https://github.com/sickill/vim-monokai/blob/master/colors/monokai.vim
-sudo rm ~/.vimrc
+mkdir ~/.vim/colors 
 cd ~/linux-setup-scripts
+cp monokai.vim ~/.vim/colors
 cp .vimrc ~/
