@@ -1,12 +1,12 @@
 AnacondaSetup() {
-echo "Would you like to install Anaconda? [y/n]"
-if [$1 == "y"]
-then 
-    echo "Downloading anaconda..."
-    cd Downloads
-    wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
-    echo "Continue setup on your own please!"
-fi
+    echo "Would you like to install Anaconda? [y/n]"
+    if [$1 == "y"]
+    then 
+        echo "Downloading anaconda..."
+        cd Downloads
+        wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+        echo "Continue setup on your own please!"
+    fi
 }
 AnacondaSetup
 
