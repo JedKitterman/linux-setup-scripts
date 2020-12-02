@@ -177,6 +177,14 @@ alias cpp="cd /mnt/c/Users/apynch/Github/CPP"
 alias pgf="cd /mnt/d/Github"
 alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 alias clr='rm -rf *'
+alias wthr='curl wttr.in'
+alias ubrc='UpdateBashRC'
+
+UpdateBashRC() {
+    cd ~/linux-setup-scripts 
+    ./mvBash.sh
+    bash
+}
 
 # Misc Asliases
 # =============
