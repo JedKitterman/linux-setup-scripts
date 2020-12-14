@@ -173,7 +173,7 @@ alias templ-disabled='/home/andrew/Github/Ishiiruka/build/Binaries/dolphin-emu'
 alias dol='dolphin-emu'
 alias bse='vim ~/.bashrc'
 alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
-alias cpp="cd /mnt/c/Users/apynch/Github/CPP"
+alias gm="cd /mnt/c/Git/GM"
 alias pgf="cd /mnt/d/Github"
 alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 alias clr='rm -rf *'
@@ -193,7 +193,6 @@ alias lsl='ls -l'
 # Git Aliases
 # ===========
 alias gcl='CloneAndrewRepo'
-alias gcpp='CloneCPPRepo'
 alias gpl='git pull'
 alias gaa='git add --all'
 alias gam='git commit -a -m'
@@ -248,7 +247,6 @@ alias lsl='ls -l'
 # Git Aliases
 # ===========
 alias gcl='CloneAndrewRepo'
-alias gcpp='CloneCPPRepo'
 alias gpl='git pull'
 alias gaa='git add --all'
 alias gam='git commit -a -m'
@@ -270,13 +268,3 @@ alias inr='InitNewRepo'"
 CloneAndrewRepo() {
 	git clone 'https://github.com/andrew-pynch/'$1
     cd $1
-}
-
-# Clone a repo of a given name from CPP Azure
-CloneCPPRepo() {
-    echo "https://CPPCorp@dev.azure.com/CPPCorp/$1/_git/$1"
-	git clone "https://CPPCorp@dev.azure.com/CPPCorp/$1/_git/$1"
-	cd $1
-}
-
-
