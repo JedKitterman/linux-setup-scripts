@@ -173,7 +173,7 @@ alias templ-disabled='/home/andrew/Github/Ishiiruka/build/Binaries/dolphin-emu'
 alias dol='dolphin-emu'
 alias bse='vim ~/.bashrc'
 alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
-alias gm="cd /mnt/c/Git/GM"
+alias gmf="cd /mnt/c/Git/GM"
 alias pgf="cd /mnt/d/Github"
 alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 alias clr='rm -rf *'
@@ -267,4 +267,5 @@ alias inr='InitNewRepo'"
 # Clone a repo of a given name from my github
 CloneAndrewRepo() {
 	git clone 'https://github.com/andrew-pynch/'$1
-    cd $1
+	cd $1
+}
