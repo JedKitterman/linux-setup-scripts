@@ -208,6 +208,7 @@ alias gsa='git stash --all'
 alias gbsc='git branch --show-current'
 alias sa='ShowAliases'
 alias inr='InitNewRepo'
+alias grh='ResetCommitHash'
 
 PushBranchSetUpstream() {
     git push --set-upstream origin $1
@@ -224,6 +225,11 @@ InitNewRepo() {
     touch README.md 
     git add --all
     git commit -a -m "Add README.md"
+}
+
+ResetCommitHash() {
+    git reset --hard $1
+    git commit -a -m "Revert to " + $1
 }
 
 ShowAliases() {
@@ -261,7 +267,8 @@ alias gl='git log'
 alias gsa='git stash --all'
 alias gbsc='git branch --show-current'
 alias sa='ShowAliases'
-alias inr='InitNewRepo'"
+alias inr='InitNewRepo'
+alias grh='ResetCommitHash'"
 }
 
 # Clone a repo of a given name from my github
