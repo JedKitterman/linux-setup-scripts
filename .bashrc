@@ -229,7 +229,6 @@ InitNewRepo() {
 
 ResetCommitHash() {
     git reset --hard $1
-    git commit -a -m "Revert to " + $1
 }
 
 ShowAliases() {
