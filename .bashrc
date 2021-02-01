@@ -179,11 +179,23 @@ alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 alias clr='rm -rf *'
 alias wthr='curl wttr.in'
 alias ubrc='UpdateBashRC'
+alias govids='cd /mnt/d/Video'
+alias mkvid='MakeVideo'
 
 UpdateBashRC() {
     cd ~/linux-setup-scripts 
     ./mvBash.sh
     bash
+}
+
+MakeVideo() {
+    mkdir $1
+    cd $1
+    mkdir Clips
+    mkdir Images
+    mkdir Music
+    mkdir Audio
+    mkdir Footage
 }
 
 # Misc Asliases
@@ -229,6 +241,9 @@ InitNewRepo() {
 
 ResetCommitHash() {
     git reset --hard $1
+    git reset --soft HEAD@{1}
+    git commit -a -m "Revert head..."
+    git push
 }
 
 ShowAliases() {
