@@ -13,6 +13,7 @@ esac
 ###### Custom Things ########
 #############################
 neofetch --ascii_distro ubuntu
+alias rs='rescuetime'
 
 UpdateLinuxSetupScripts() {
 	cd ~/linux-setup-scripts
