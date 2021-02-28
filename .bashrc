@@ -223,6 +223,16 @@ alias gbsc='git branch --show-current'
 alias sa='ShowAliases'
 alias inr='InitNewRepo'
 alias grh='ResetCommitHash'
+alias gbdl='GitBranchDeleteLocal'
+alias gbdo='GitBranchDeleteOrigin'
+
+GitBranchDeleteLocal() {
+    git branch -d $1
+}
+
+GitBranchDeleteOrigin() {
+    git push origin --delete $1
+}
 
 PushBranchSetUpstream() {
     git push --set-upstream origin $1
