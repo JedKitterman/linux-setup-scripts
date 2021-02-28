@@ -13,6 +13,7 @@ esac
 ###### Custom Things ########
 #############################
 neofetch --ascii_distro ubuntu
+alias rs='rescuetime'
 
 UpdateLinuxSetupScripts() {
 	cd ~/linux-setup-scripts
@@ -180,11 +181,23 @@ alias start='/mnt/c/Windows/System32/cmd.exe /c "start ."'
 alias clr='rm -rf *'
 alias wthr='curl wttr.in'
 alias ubrc='UpdateBashRC'
+alias govids='cd /mnt/d/Video'
+alias mkvid='MakeVideo'
 
 UpdateBashRC() {
     cd ~/linux-setup-scripts 
     ./mvBash.sh
     bash
+}
+
+MakeVideo() {
+    mkdir $1
+    cd $1
+    mkdir Clips
+    mkdir Images
+    mkdir Music
+    mkdir Audio
+    mkdir Footage
 }
 
 # Misc Asliases
@@ -209,6 +222,7 @@ alias gsa='git stash --all'
 alias gbsc='git branch --show-current'
 alias sa='ShowAliases'
 alias inr='InitNewRepo'
+alias grh='ResetCommitHash'
 
 PushBranchSetUpstream() {
     git push --set-upstream origin $1
@@ -225,6 +239,13 @@ InitNewRepo() {
     touch README.md 
     git add --all
     git commit -a -m "Add README.md"
+}
+
+ResetCommitHash() {
+    git reset --hard $1
+    git reset --soft HEAD@{1}
+    git commit -a -m "Revert head..."
+    git push
 }
 
 ShowAliases() {
@@ -262,7 +283,8 @@ alias gl='git log'
 alias gsa='git stash --all'
 alias gbsc='git branch --show-current'
 alias sa='ShowAliases'
-alias inr='InitNewRepo'"
+alias inr='InitNewRepo'
+alias grh='ResetCommitHash'"
 }
 
 # Clone a repo of a given name from my github
