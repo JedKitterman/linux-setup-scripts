@@ -1,15 +1,19 @@
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 neofetch
 
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+
+# Misc Asliases
+# =============
+alias lsl='ls -l'
 alias clr='rm -rf *'
 alias wthr='curl wttr.in'
 alias sshosu="ssh 'pyncha@oregonstate.edu'@flip.engr.oregonstate.edu"
 alias jl='jupyter-lab'
 alias jn='jupyter-notebook'
-
-# Misc Asliases
-# =============
-alias lsl='ls -l'
 
 # Git Aliases
 # ===========
